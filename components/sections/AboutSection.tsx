@@ -165,8 +165,7 @@ export default function AboutSection() {
                   display: "block",
                   opacity: 1,
                   visibility: "visible",
-                  margin: 0,
-                  marginBottom: "40px"
+                  margin: 0
                 }}
               >
                 {tSection("transformIdeas")}
