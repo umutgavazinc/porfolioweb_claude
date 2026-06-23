@@ -1,0 +1,27 @@
+{
+  "slug": "no8",
+  "year": 2025,
+  "categories": ["collaborations", "motion"],
+  "title": {
+    "en": "NO8",
+    "tr": "NO8"
+  },
+  "shortDescription": {
+    "en": "A video project exploring experimental narratives and visual storytelling.",
+    "tr": "Deneysel anlatılar ve görsel hikâyeyi keşfeden bir video projesi."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": ["After Effects", "Premiere Pro"],
+  "coverImage": "/images/works/no8/cover.webp",
+  "gallery": [],
+  "videos": [
+    { "type": "youtube", "id": "gh3sez0cm1k" },
+    { "type": "youtube", "id": "uGaSgny89fA" },
+    { "type": "youtube", "id": "LWBo9PV7LGs" }
+  ],
+  "client": null,
+  "featured": false
+}

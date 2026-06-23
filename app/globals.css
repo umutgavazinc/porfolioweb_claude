@@ -1,0 +1,391 @@
+@import "tailwindcss";
+
+/* Custom Fonts */
+@font-face {
+  font-family: "ClashDisplay";
+  src: url("/fonts/clash-display.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/roboto-light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/roboto-regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("/fonts/roboto-semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ─────────────────────────────────────────
+   DESIGN TOKENS — Dark Cinematic Portfolio
+   Referans: siyah + dark red gradients, serif display, light body
+   ───────────────────────────────────────── */
+:root {
+  /* PRIMARY COLORS */
+  --color-bg-primary: #0a0a0a;
+  --color-bg-secondary: #1a1a1a;
+  --color-bg-tertiary: #2a2a2a;
+  --color-bg-dark-red: #2d1618;
+  --color-bg-dark-red-lighter: #3d2028;
+
+  /* TEXT */
+  --color-text-primary: #e8e8e8;
+  --color-text-secondary: #a8a8a8;
+  --color-text-muted: #787878;
+
+  /* ACCENT — kırmızı/warmth */
+  --color-accent: #d9534f;
+  --color-accent-light: #e74c3c;
+
+  /* BORDERS */
+  --color-border: rgba(255, 255, 255, 0.08);
+  --color-border-light: rgba(255, 255, 255, 0.12);
+
+  /* HERO SECTION */
+  --color-hero-bg: #f5f5f0;
+  --color-hero-text: #0a0a0a;
+
+  /* Tipografi — Modern Sans-Serif */
+  --font-display: "ClashDisplay", sans-serif;
+  --font-body: "Roboto", -apple-system, system-ui, sans-serif;
+
+  /* Font Weights - Roboto Hierarchy */
+  --weight-thin: 300;
+  --weight-light: 300;
+  --weight-normal: 400;
+  --weight-semi: 600;
+  --weight-bold: 600;
+
+  /* Tipografi Sizes — Modern Scale */
+  --text-hero-title: clamp(56px, 7vw, 112px);
+  --text-hero-sub: 16px;
+  --text-section-title: clamp(34px, 4vw, 56px);
+  --text-card-title: 20px;
+  --text-body: 16px;
+  --text-paragraph: 16px;
+  --text-small: 14px;
+  --text-nav: 13px;
+  --text-label: 12px;
+
+  /* Line Heights — Precise Typography */
+  --line-hero: 0.95;
+  --line-section: 1.08;
+  --line-body: 1.75;
+  --leading-tight: 1.2;
+  --leading-snug: 1.35;
+  --leading-normal: 1.55;
+  --leading-relaxed: 1.75;
+  --leading-loose: 1.9;
+
+  /* Letter Spacing — Elegant Tracking */
+  --letter-hero: -0.055em;
+  --letter-section: -0.04em;
+  --letter-body: 0em;
+  --letter-nav: 0.08em;
+  --tracking-tight: -0.01em;
+  --tracking-normal: 0em;
+  --tracking-wide: 0.08em;
+  --tracking-wider: 0.12em;
+
+  /* Borders & Radius */
+  --radius-none: 0px;
+  --radius-sm: 2px;
+  --radius-md: 6px;
+  --radius-lg: 10px;
+  --radius-button: 8px;
+  --radius-card: 14px;
+  --radius-full: 9999px;
+
+  /* Spacing */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+  --space-3xl: 64px;
+  --space-4xl: 80px;
+  --space-5xl: 120px;
+
+  /* Section Spacing System */
+  --spacing-section: 96px;
+  --spacing-section-hero: 128px;
+  --spacing-section-bottom: 112px;
+  --spacing-label-title: 32px;
+  --spacing-title-text: 24px;
+  --spacing-text-cta: 40px;
+  --spacing-grid-gap: 64px;
+  --spacing-card-gap: 28px;
+  --spacing-card-padding: 36px;
+
+  /* Container */
+  --container-max: 1440px;
+  --container-padding: clamp(24px, 4vw, 48px);
+  --container-gap: 60px;
+
+  /* Section Spacing */
+  --section-py: clamp(100px, 18vw, 140px);
+
+  /* Button System */
+  --button-height: clamp(44px, 5vw, 56px);
+  --button-padding-h: clamp(20px, 3vw, 28px);
+  --button-radius: 8px;
+  --button-border: 1px solid rgba(217, 83, 79, 0.5);
+  --button-bg-primary: rgba(217, 83, 79, 0.08);
+  --button-bg-secondary: transparent;
+  --button-border-secondary: 1px solid rgba(255, 255, 255, 0.2);
+
+  /* Background Gradients — Cinematic */
+  --bg-gradient-hero: radial-gradient(circle at 72% 18%, rgba(120, 20, 32, 0.42) 0%, transparent 34%), radial-gradient(circle at 22% 48%, rgba(76, 12, 24, 0.32) 0%, transparent 40%), linear-gradient(180deg, #070506 0%, #17070b 42%, #050505 100%);
+  --bg-vignette: radial-gradient(ellipse at 50% 50%, transparent 0%, rgba(0, 0, 0, 0.6) 100%);
+
+  /* Z-Index */
+  --z-base: 1;
+  --z-nav: 50;
+  --z-modal: 100;
+
+  /* Transitions */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out: cubic-bezier(0.83, 0, 0.17, 1);
+  --ease-smooth: cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  --duration-fast: 150ms;
+  --duration-base: 300ms;
+  --duration-slow: 500ms;
+
+  /* Nav */
+  --nav-height: 56px;
+}
+
+/* ─────────────────────────────────────────
+   RESET & BASE
+   ───────────────────────────────────────── */
+@theme inline {
+  --color-background: var(--color-bg-primary);
+  --color-foreground: var(--color-text-primary);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  font-weight: var(--weight-thin);
+  background-color: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  min-height: 100dvh;
+  line-height: var(--leading-normal);
+}
+
+/* TYPOGRAPHY SYSTEM */
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: var(--weight-bold);
+}
+
+p {
+  margin: 0;
+  font-weight: var(--weight-thin);
+  line-height: var(--leading-relaxed);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color var(--duration-fast) var(--ease-smooth);
+}
+
+/* Section headline — Modern sans-serif, elegant */
+.heading-section {
+  font-family: var(--font-display);
+  font-size: var(--text-section-title);
+  font-weight: var(--weight-light);
+  line-height: var(--line-section);
+  letter-spacing: var(--letter-section);
+  margin-bottom: var(--spacing-title-text);
+}
+
+/* Hero headline — Modern sans-serif, thin, elegant */
+.heading-hero {
+  font-family: var(--font-display);
+  font-size: var(--text-hero-title);
+  font-weight: var(--weight-light);
+  line-height: var(--line-hero);
+  letter-spacing: var(--letter-hero);
+  margin-bottom: var(--spacing-label-title);
+  max-width: 720px;
+}
+
+.heading-hero-sub {
+  font-family: var(--font-display);
+  font-size: var(--text-hero-sub);
+  font-weight: var(--weight-normal);
+  letter-spacing: var(--letter-nav);
+  line-height: var(--leading-normal);
+  margin-bottom: var(--spacing-text-cta);
+  color: rgba(244, 240, 237, 0.72);
+}
+
+/* Card title */
+.heading-card {
+  font-size: var(--text-card-title);
+  font-weight: var(--weight-bold);
+  margin-bottom: var(--space-md);
+}
+
+/* Label — small uppercase */
+.label {
+  font-size: var(--text-label);
+  font-weight: var(--weight-semi);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  color: var(--color-text-muted);
+}
+
+/* Body text — readable, elegant */
+.body {
+  font-size: var(--text-body);
+  line-height: var(--line-body);
+  color: rgba(244, 240, 237, 0.72);
+  font-weight: var(--weight-normal);
+}
+
+/* Paragraph text */
+.paragraph {
+  font-size: var(--text-paragraph);
+  line-height: var(--line-body);
+  color: rgba(244, 240, 237, 0.72);
+  font-weight: var(--weight-normal);
+  max-width: 560px;
+}
+
+/* Small text */
+.small {
+  font-size: var(--text-small);
+  line-height: var(--leading-normal);
+  color: var(--color-text-secondary);
+}
+
+/* Text label */
+.text-label {
+  font-size: var(--text-label);
+  font-weight: var(--weight-semi);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-nav);
+  color: var(--color-accent);
+}
+
+/* CONTAINER */
+.container-site {
+  width: 100%;
+  max-width: var(--container-max);
+  margin-inline: auto;
+  padding-inline: var(--container-padding);
+}
+
+/* SECTION BASE */
+.section {
+  width: 100%;
+  padding-top: var(--section-py);
+  padding-bottom: var(--section-py);
+}
+
+.section-dark {
+  background-color: var(--color-bg-primary);
+}
+
+.section-surface {
+  background-color: var(--color-bg-surface);
+}
+
+/* BUTTONS — Premium, professional */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-sm);
+  height: var(--button-height);
+  padding: 0 var(--button-padding-h);
+  font-size: var(--text-small);
+  font-weight: var(--weight-semi);
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-wider);
+  border: none;
+  border-radius: var(--button-radius);
+  cursor: pointer;
+  transition: all var(--duration-base) var(--ease-smooth);
+  white-space: nowrap;
+  font-family: var(--font-display);
+}
+
+.btn-primary {
+  background-color: var(--button-bg-primary);
+  color: var(--color-accent);
+  border: var(--button-border);
+}
+
+.btn-primary:hover {
+  background-color: rgba(217, 83, 79, 0.15);
+  border-color: rgba(217, 83, 79, 0.8);
+  color: var(--color-accent);
+}
+
+.btn-secondary {
+  background-color: var(--button-bg-secondary);
+  color: var(--color-text-secondary);
+  border: var(--button-border-secondary);
+}
+
+.btn-secondary:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.4);
+  color: var(--color-text-primary);
+}
+
+/* CARDS — Equal height, elegant glass effect */
+.card {
+  min-height: 230px;
+  padding: var(--spacing-card-padding);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: var(--radius-card);
+  background-color: rgba(255, 255, 255, 0.035);
+  transition: all var(--duration-base) var(--ease-smooth);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-color: rgba(255, 255, 255, 0.2);
+}

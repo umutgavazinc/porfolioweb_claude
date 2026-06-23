@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "works": "Portfolio",
+    "experience": "EXPERIENCE",
+    "contact": "Contact"
+  },
+  "home": {
+    "heroHeadline": "Multidisciplinary Artist\n& Visual Designer",
+    "heroSub": "Multidisciplinary visual production focused on brand identity, motion design, video production, and new media.",
+    "viewPortfolio": "VIEW PORTFOLIO",
+    "aboutMe": "ABOUT ME",
+    "whatIDo": "Services",
+    "graphicDesign": "New Media & AI Creative Production",
+    "graphicDesignDesc": "Using AI and new media tools, I create experimental and creative videos, music videos for artists, promotional and advertising videos for partners, and social media content for brands.",
+    "motionDesign": "Motion Design, Videography & Editing",
+    "motionDesignDesc": "I produce animation, kinetic design, video production, and cinematic storytelling.",
+    "aiCreation": "Print & Digital Graphics",
+    "aiCreationDesc": "I design corporate identities, brand identities, editorial work, campaign and advertising visuals, and visual systems.",
+    "explore": "EXPLORE →",
+    "divePortfolio": "Explore\nPortfolio",
+    "ctaDescription": "Explore my selected works from design, motion design, video, and experimental production.",
+    "disciplines": "What I Do",
+    "disciplineExplore": "EXPLORE →"
+  },
+  "works": {
+    "title": "Portfolio",
+    "filterAll": "All",
+    "filterGraphic": "Graphic Design",
+    "filterMotion": "Motion Design",
+    "filterVideo": "Video",
+    "filterIllustration": "Illustration",
+    "filterAi": "AI CREATIVE",
+    "filterCraft": "Tattoo / Mural",
+    "filterCollab": "Collaboration",
+    "filterAnimation": "Animation"
+  },
+  "about": {
+    "title": "About",
+    "craftTitle": "Multidisciplinary Production Transforming Ideas into Visual Worlds",
+    "craftDescription": "",
+    "bio": "I'm Umut Gavaz, a multidisciplinary visual artist and designer based in Ankara. My creative journey began with graphic design education and expanded into AI video direction, new media art, visual arts, tattoo, mural, videography, video editing, animation, and AI-assisted production. I position myself not within a single discipline, but among the networks these fields create with each other. I create work that combines ideas, visual language, storytelling, and production process across different mediums, primarily in brand identity, print graphics, motion design, video production, and editing.",
+    "tools": "Tools & Software",
+    "pageTitle": "Who Am I?",
+    "toolsSoftware": "Tools & Software",
+    "myExperiences": "MY EXPERIENCES →",
+    "aboutPageIntro": "I'm Umut Gavaz, a multidisciplinary visual artist and designer based in Ankara. My creative journey began with graphic design education and expanded into visual arts, tattoo, mural, videography, video editing, animation, and AI-assisted production. I position myself not within a single discipline, but among the networks these fields create with each other. I create work that combines ideas, visual language, storytelling, and production process across different mediums, primarily in brand identity, print graphics, motion design, video production, and editing."
+  },
+  "experience": {
+    "title": "Experience",
+    "education": "Education",
+    "professional": "Professional Experience",
+    "freelance": "Freelance & Projects",
+    "skills": "Skills",
+    "downloadCV": "Download CV"
+  },
+  "contact": {
+    "title": "Contact",
+    "intro": "For projects, collaboration, or just to say hello.",
+    "email": "Email",
+    "socials": "Social Media"
+  },
+  "common": {
+    "year": "Year",
+    "category": "Media",
+    "tools": "Tools",
+    "client": "Client",
+    "nextProject": "Next Project",
+    "backToWorks": "← BACK TO WORKS"
+  },
+  "footer": {
+    "contactLabel": "CONTACT",
+    "navigationLabel": "NAVIGATION",
+    "disciplinesLabel": "DISCIPLINES",
+    "socialLabel": "SOCIAL MEDIA",
+    "location": "Ankara, Turkey",
+    "copyright": "Built by hand and curiosity. All rights reserved.",
+    "navWorks": "Works",
+    "navAbout": "About",
+    "navDisciplines": "Disciplines",
+    "navContact": "Contact",
+    "discGraphic": "Graphic Design",
+    "discMotion": "Motion Design",
+    "discVideo": "Video Art",
+    "discIllustration": "Illustration",
+    "discAI": "AI CREATIVE"
+  },
+  "aboutSection": {
+    "transformIdeas": "This creative approach, utilizing multiple interdisciplinary fields simultaneously, is nourished by the pure imagination of childhood, life experiences, dreams, and images accumulated in the everyday world. Rather than simply producing visuals, it centers on creating meaning around ideas, building atmosphere, and storytelling.",
+    "journeyDescription": "Whether the resulting work is commercial, artistic, or personal, the underlying approach remains the same: combining intuitive creation with a professional process to produce work that connects with the viewer, creates its own world, and leaves an impact."
+  },
+  "projectDetail": {
+    "projectTitle": "Emel (Nod4wa) — ALCHEMIZE",
+    "projectDesc": "A creative music video I produced for Alchemize, a track by Emel, one of Ankara's unique artists, with production by Nod4wa."
+  }
+}

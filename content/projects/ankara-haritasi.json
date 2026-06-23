@@ -1,0 +1,26 @@
+{
+  "slug": "ankara-haritasi",
+  "year": 2026,
+  "categories": ["graphic"],
+  "title": {
+    "en": "ANKARA KEŞİF HARİTASI",
+    "tr": "ANKARA KEŞİF HARİTASI"
+  },
+  "shortDescription": {
+    "en": "A detailed map design for Ankara Tourism Association, created as a front and back page brochure layout. The map showcases Ankara's key landmarks, districts, and tourist attractions with a modern visual approach.",
+    "tr": "Ankara Turizm Derneği için oluşturulmuş ön arka sayfa broşür tasarımı. Ankara'nın önemli noktaları, ilçeleri ve turizm alanlarını modern bir görsel yaklaşımla gösteren harita tasarımı."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": ["Illustrator", "Photoshop", "InDesign"],
+  "coverImage": "/images/works/ankara-haritasi/cover.webp",
+  "gallery": [
+    "/images/works/ankara-haritasi/ankara keşif haritası ön sayfa son_rv.webp",
+    "/images/works/ankara-haritasi/ankara keşif haritası arka sayfa son rv.webp"
+  ],
+  "videos": [],
+  "client": "Ankara Turizm Derneği",
+  "featured": true
+}

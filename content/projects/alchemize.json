@@ -1,0 +1,32 @@
+{
+  "slug": "alchemize",
+  "year": 2024,
+  "categories": ["video", "collaborations"],
+  "title": {
+    "en": "ALCHEMIZE - Music Video",
+    "tr": "ALCHEMIZE - Müzik klibi"
+  },
+  "shortDescription": {
+    "en": "A creative music video I produced for Alchemize, a track by Emel, one of Ankara's unique artists, with production by Nod4wa.",
+    "tr": "Ankara'nın özgün müzisyenlerinden Emel'in, Nod4wa altyapısıyla ürettiği Alchemize parçası için hazırladığım yaratıcı müzik videosu."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": [],
+  "coverImage": "https://img.youtube.com/vi/5aU-llMWRBI/hqdefault.jpg",
+  "gallery": [],
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "4WG3noBC3uE"
+    },
+    {
+      "type": "youtube",
+      "id": "5aU-llMWRBI"
+    }
+  ],
+  "client": "Emel, Nod4wa",
+  "featured": true
+}

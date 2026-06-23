@@ -1,0 +1,29 @@
+{
+  "slug": "cig-kuyu-sokak",
+  "year": 2025,
+  "categories": ["video", "collaborations"],
+  "title": {
+    "en": "ÇİĞ - MUSIC COVERS",
+    "tr": "Çiğ - Müzik Kapakları"
+  },
+  "shortDescription": {
+    "en": "A documentary-style video project exploring urban spaces.",
+    "tr": "Şehir mekanlarını keşfeden belgesel tarzı bir video projesi."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": ["Premiere Pro", "After Effects"],
+  "coverImage": "/images/works/çiğ/cover.webp",
+  "gallery": [
+    "/images/works/çiğ/retina.webp",
+    "/images/works/çiğ/yokus.webp"
+  ],
+  "videos": [
+    { "type": "youtube", "id": "GpAkkEr7kM8" },
+    { "type": "youtube", "id": "3-1nUOg4-pU" }
+  ],
+  "client": "Çiğ",
+  "featured": false
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "ankara-orta-oyunculari",
+  "year": 2019,
+  "categories": ["graphic"],
+  "title": {
+    "en": "ANKARA ORT PLAYERS",
+    "tr": "ANKARA ORTA OYUNCULAR"
+  },
+  "shortDescription": {
+    "en": "A collection of theater promotional posters and performance artwork.",
+    "tr": "Tiyatro promosyon afişleri ve performans sanat çalışmalarının bir koleksiyonu."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": ["Photoshop", "Illustrator"],
+  "coverImage": "/images/works/Ankara-Orta-Oyuncuları/Kaos Umut için basılacak.webp",
+  "gallery": [
+    "/images/works/Ankara-Orta-Oyuncuları/Memleketimden İnsan Manzaraları.webp",
+    "/images/works/Ankara-Orta-Oyuncuları/benerci kendini niçin öldürdü.webp",
+    "/images/works/Ankara-Orta-Oyuncuları/kuvayi milliye destanı.webp",
+    "/images/works/Ankara-Orta-Oyuncuları/çanlar kimin için çalıyor.webp",
+    "/images/works/Ankara-Orta-Oyuncuları/çanlar sanat için çalıyor.webp"
+  ],
+  "videos": [],
+  "client": "Ankara Orta Oyuncuları",
+  "featured": false
+}

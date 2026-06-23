@@ -1,0 +1,30 @@
+{
+  "slug": "inside-music-festival",
+  "year": 2025,
+  "categories": ["collaborations"],
+  "title": {
+    "en": "INSIDE MUSIC FESTIVAL",
+    "tr": "INSIDE MUSIC FESTIVAL"
+  },
+  "shortDescription": {
+    "en": "A comprehensive visual campaign for the Inside Music Festival featuring promotional posters, social media content, and video materials.",
+    "tr": "Inside Music Festival için kapsamlı görsel kampanya: promosyon afişleri, sosyal medya içerikleri ve video materyalleri."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": ["After Effects", "Photoshop", "Illustrator", "Cinema 4D", "Premiere Pro"],
+  "coverImage": "/images/works/inside-music-festival/cover.webp",
+  "gallery": [
+    "/images/works/inside-music-festival/1.webp",
+    "/images/works/inside-music-festival/2.webp",
+    "/images/works/inside-music-festival/3.webp",
+    "/images/works/inside-music-festival/4.webp",
+    "/images/works/inside-music-festival/5.webp",
+    "/images/works/inside-music-festival/6.webp"
+  ],
+  "videos": [],
+  "client": "Inside Music Festival",
+  "featured": true
+}

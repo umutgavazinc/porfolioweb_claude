@@ -1,0 +1,28 @@
+{
+  "slug": "mu-sallat",
+  "year": 2022,
+  "categories": ["animation"],
+  "title": {
+    "en": "MU-SALLAT",
+    "tr": "Mu-Sallat"
+  },
+  "shortDescription": {
+    "en": "An animation project.",
+    "tr": "Bir animasyon projesi."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": [],
+  "coverImage": "https://img.youtube.com/vi/c_fdd8ISDqE/hqdefault.jpg",
+  "gallery": [],
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "c_fdd8ISDqE"
+    }
+  ],
+  "client": null,
+  "featured": false
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "ilustrasyon",
+  "year": 2023,
+  "categories": ["illustration"],
+  "title": {
+    "en": "ILLUSTRATIONS",
+    "tr": "İLLÜSTRASYON"
+  },
+  "shortDescription": {
+    "en": "A collection of digital and traditional illustration works exploring various themes and artistic styles.",
+    "tr": "Çeşitli temalar ve sanatsal stilleri keşfeden dijital ve geleneksel illüstrasyon çalışmalarının bir koleksiyonu."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": ["Photoshop", "Procreate", "Illustrator", "Pen & Paper"],
+  "coverImage": "/images/works/illüstrasyon/cover.webp",
+  "gallery": [
+    "/images/works/illüstrasyon/1.webp",
+    "/images/works/illüstrasyon/2.webp",
+    "/images/works/illüstrasyon/3.webp",
+    "/images/works/illüstrasyon/64810687_2301480376613811_8926259364178035069_n.webp",
+    "/images/works/illüstrasyon/67148377_424958138119839_8524294723362018590_n.webp",
+    "/images/works/illüstrasyon/77CF528F-5141-4C84-8013-FCFAA092AB2F.webp",
+    "/images/works/illüstrasyon/Adsız_Resim%2019.webp",
+    "/images/works/illüstrasyon/IMG_0085.webp",
+    "/images/works/illüstrasyon/IMG_1583.webp",
+    "/images/works/illüstrasyon/IMG_2320.webp",
+    "/images/works/illüstrasyon/IMG_3385.webp",
+    "/images/works/illüstrasyon/Nereye%20bakarlar%20(sketch).webp",
+    "/images/works/illüstrasyon/Odtu%20Duvar.webp",
+    "/images/works/illüstrasyon/Seperate%20(Etincelle).webp",
+    "/images/works/illüstrasyon/bilge%20intro%20large.webp",
+    "/images/works/illüstrasyon/chain%20head%20mu.webp",
+    "/images/works/illüstrasyon/choose%20another%2070x50%20a.webp",
+    "/images/works/illüstrasyon/satir%20busttt.webp",
+    "/images/works/illüstrasyon/satirr%20karakter%20b.webp",
+    "/images/works/illüstrasyon/undervater%20mucevheri.webp"
+  ],
+  "videos": [],
+  "client": null,
+  "featured": false
+}

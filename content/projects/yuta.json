@@ -1,0 +1,46 @@
+{
+  "slug": "yuta",
+  "year": 2026,
+  "categories": ["graphic"],
+  "title": {
+    "en": "YUTA",
+    "tr": "YUTA"
+  },
+  "shortDescription": {
+    "en": "A comprehensive design project in collaboration with YuTa, featuring multiple visual components and systematic design approach.",
+    "tr": "YuTa ile işbirliğinde gerçekleştirilen, birden fazla görsel bileşen ve sistematik tasarım yaklaşımını içeren kapsamlı bir tasarım projesi."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": ["Illustrator", "Photoshop", "InDesign"],
+  "coverImage": "/images/works/YUTA/page-01.webp",
+  "gallery": [
+    "/images/works/YUTA/page-02.webp",
+    "/images/works/YUTA/page-03.webp",
+    "/images/works/YUTA/page-04.webp",
+    "/images/works/YUTA/page-05.webp",
+    "/images/works/YUTA/page-06.webp",
+    "/images/works/YUTA/page-07.webp",
+    "/images/works/YUTA/page-08.webp",
+    "/images/works/YUTA/page-09.webp",
+    "/images/works/YUTA/page-10.webp",
+    "/images/works/YUTA/page-11.webp",
+    "/images/works/YUTA/page-12.webp",
+    "/images/works/YUTA/page-13.webp",
+    "/images/works/YUTA/page-14.webp",
+    "/images/works/YUTA/page-15.webp",
+    "/images/works/YUTA/page-16.webp",
+    "/images/works/YUTA/page-17.webp",
+    "/images/works/YUTA/page-18.webp",
+    "/images/works/YUTA/page-19.webp",
+    "/images/works/YUTA/page-20.webp",
+    "/images/works/YUTA/page-21.webp",
+    "/images/works/YUTA/page-22.webp",
+    "/images/works/YUTA/page-23.webp"
+  ],
+  "videos": [],
+  "client": "YuTa",
+  "featured": true
+}

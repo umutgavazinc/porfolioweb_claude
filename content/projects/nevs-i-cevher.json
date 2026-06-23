@@ -1,0 +1,27 @@
+{
+  "slug": "nevs-i-cevher",
+  "year": 2022,
+  "categories": ["animation"],
+  "title": {
+    "en": "NEVS-İ CEVHER",
+    "tr": "NEVS-İ CEVHER"
+  },
+  "shortDescription": {
+    "en": "A cell animation project exploring classical and contemporary visual storytelling through hand-drawn animation techniques.",
+    "tr": "El çizimi animasyon teknikleriyle klasik ve çağdaş görsel anlatımı keşfeden bir hücresel animasyon projesi."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": ["Toon Boom", "Adobe Animate", "After Effects"],
+  "coverImage": "https://img.youtube.com/vi/lmy41wjMFwE/hqdefault.jpg",
+  "gallery": [],
+  "videos": [
+    { "type": "youtube", "id": "lmy41wjMFwE" },
+    { "type": "youtube", "id": "bIVAeN1AlU0" },
+    { "type": "youtube", "id": "EmicocmaRrE" }
+  ],
+  "client": null,
+  "featured": false
+}

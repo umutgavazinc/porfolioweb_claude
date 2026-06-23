@@ -1,0 +1,29 @@
+{
+  "slug": "isletme-videografi",
+  "year": 2025,
+  "categories": ["video"],
+  "title": {
+    "en": "VIDEOGRAPHY",
+    "tr": "VİDEOGRAFİ"
+  },
+  "shortDescription": {
+    "en": "A comprehensive collection of commercial videography projects showcasing various brands and businesses.",
+    "tr": "Çeşitli markaları ve işletmeleri sergileyen kapsamlı bir ticari videografi koleksiyonu."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": ["Premiere Pro", "After Effects", "DaVinci Resolve"],
+  "coverImage": "https://img.youtube.com/vi/FUvuvblZlGM/hqdefault.jpg",
+  "gallery": [],
+  "videos": [
+    { "type": "youtube", "id": "FUvuvblZlGM" },
+    { "type": "youtube", "id": "ZjEOh6jSODA" },
+    { "type": "youtube", "id": "2G0MBDMCmGk" },
+    { "type": "youtube", "id": "pVj6ZjZjYNY" },
+    { "type": "youtube", "id": "D9bFeu4sWCc" }
+  ],
+  "client": null,
+  "featured": false
+}

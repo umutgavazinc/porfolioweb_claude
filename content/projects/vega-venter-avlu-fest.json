@@ -1,0 +1,29 @@
+{
+  "slug": "vega-venter-avlu-fest",
+  "year": 2025,
+  "categories": ["video"],
+  "title": {
+    "en": "VEGA VENTER AVLU FEST",
+    "tr": "VEGA VENTER AVLU FEST"
+  },
+  "shortDescription": {
+    "en": "A video campaign for an outdoor festival event.",
+    "tr": "Açık hava festival etkinliği için video kampanyası."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": ["After Effects", "Premiere Pro"],
+  "coverImage": "/images/works/vega-venter-avlu-fest/cover.webp",
+  "gallery": [
+    "/images/works/vega-venter-avlu-fest/Derya-bill.webp",
+    "/images/works/vega-venter-avlu-fest/image1.webp"
+  ],
+  "videos": [
+    { "type": "local", "id": "/images/works/vega-venter-avlu-fest/video1.mp4" },
+    { "type": "local", "id": "/images/works/vega-venter-avlu-fest/avlufest_mesajjj.mp4" }
+  ],
+  "client": null,
+  "featured": false
+}

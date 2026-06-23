@@ -1,0 +1,97 @@
+{
+  "nav": {
+    "home": "Ana Sayfa",
+    "about": "Hakkımda",
+    "works": "Portfolyo",
+    "experience": "DENEYİMLER",
+    "contact": "İletişim"
+  },
+  "home": {
+    "heroHeadline": "Multidisipliner Sanatçı\nGörsel Tasarımcı",
+    "heroSub": "Marka kimliği, hareketli tasarım, video prodüksiyon ve yeni medya odaklı multidisipliner görsel üretim.",
+    "viewPortfolio": "PORTFÖYÜ GÖRÜNTÜLE",
+    "aboutMe": "HAKKIMDA",
+    "whatIDo": "Hizmetler",
+    "graphicDesign": "Yeni Medya ve AI Yaratıcı Üretim",
+    "graphicDesignDesc": "Yapay zekâ ve yeni medya araçlarını kullanarak deneysel ve yaratıcı videolar ve sanatçılar için müzik kliplerinin yanı sıra iş ortakları için reklam ve tanıtım videoları, markalar için sosyal medya içerikleri kurguluyorum.",
+    "motionDesign": "Hareketli Grafik, Videografi & Edit",
+    "motionDesignDesc": "Animasyon, kinetik tasarım, video prodüksiyon ve sinematik anlatımlar üretiyorum.",
+    "aiCreation": "Basılı & Dijital Grafik",
+    "aiCreationDesc": "Kurumsal kimlik, marka kimlikleri, editöryal işler, kampanya ve reklam görselleri ve görsel sistemler tasarlıyorum.",
+    "explore": "KEŞFET →",
+    "divePortfolio": "Portföyü\nKeşfet",
+    "ctaDescription": "Tasarım, hareketli tasarım, video ve deneysel üretimler arasından seçtiğim işleri incele.",
+    "disciplines": "Ne Yapıyorum",
+    "disciplineExplore": "KEŞFET →"
+  },
+  "works": {
+    "title": "Portfolyo",
+    "filterAll": "Tümü",
+    "filterGraphic": "Grafik Tasarım",
+    "filterMotion": "Hareketli Tasarım",
+    "filterVideo": "Video",
+    "filterIllustration": "İllüstrasyon",
+    "filterAi": "AI KREATİF",
+    "filterCraft": "Dövme / Mural",
+    "filterCollab": "İş Birliği",
+    "filterAnimation": "Animasyon"
+  },
+  "about": {
+    "title": "Hakkımda",
+    "craftTitle": "Fikri Görsel Bir Dünyaya Dönüştüren Multidisipliner Üretim",
+    "craftDescription": "",
+    "bio": "Ben Umut Gavaz. Ankara merkezli multidisipliner bir görsel sanatçı ve tasarımcıyım. Grafik tasarım eğitimiyle başlayan üretim yolum; zamanla Ai video yönetmenliği, yeni medya sanat, plastik sanatlar, dövme, mural, videografi, video edit, animasyon, yeni medya ve yapay zekâ destekli üretim gibi farklı alanlara yayıldı. Kendimi tek bir disiplinin içinde değil, bu alanların birbiriyle kurduğu ağların arasında konumlandırıyorum. Marka kimliği, basılı grafik, hareketli grafik tasarım, video prodüksiyon ve edit alanları ağırlıklı olmak üzere; farklı mecralara yayılan projelerde fikir, görsel dil, hikâye ve üretim sürecini bir arada ele alan işler üretiyorum.",
+    "tools": "Araçlar & Yazılım",
+    "pageTitle": "Ben Kimim?",
+    "toolsSoftware": "Araçlar & Yazılım",
+    "myExperiences": "DENEYİMLERİM →",
+    "aboutPageIntro": "Ben Umut Gavaz. Ankara merkezli multidisipliner bir görsel sanatçı ve tasarımcıyım. Grafik tasarım eğitimiyle başlayan üretim yolum; zamanla görsel sanatlar, dövme, mural, videografi, video edit, animasyon, yeni medya ve yapay zekâ destekli üretim gibi farklı alanlara yayıldı. Kendimi tek bir disiplinin içinde değil, bu alanların birbiriyle kurduğu ağların arasında konumlandırıyorum. Marka kimliği, basılı grafik, hareketli grafik tasarım, video prodüksiyon ve edit alanları ağırlıklı olmak üzere; farklı mecralara yayılan projelerde fikir, görsel dil, hikâye ve üretim sürecini bir arada ele alan işler üretiyorum."
+  },
+  "experience": {
+    "title": "Deneyimlerim",
+    "education": "Eğitim",
+    "professional": "İş Deneyimi",
+    "freelance": "Serbest & Proje",
+    "skills": "Beceriler",
+    "downloadCV": "CV İndir"
+  },
+  "contact": {
+    "title": "İletişim",
+    "intro": "Proje, işbirliği veya sadece merhaba demek için.",
+    "email": "E-posta",
+    "socials": "Sosyal Medya"
+  },
+  "common": {
+    "year": "Yıl",
+    "category": "Medya",
+    "tools": "Araçlar",
+    "client": "İş Ortağı",
+    "nextProject": "Sonraki Proje",
+    "backToWorks": "← ÇALIŞMALARA DÖN"
+  },
+  "footer": {
+    "contactLabel": "İLETİŞİM",
+    "navigationLabel": "NAVİGASYON",
+    "disciplinesLabel": "DİSİPLİNLER",
+    "socialLabel": "SOSYAL MEDYA",
+    "location": "Ankara, Türkiye",
+    "copyright": "Handmade ve merak ile inşa edildi. Tüm hakları saklıdır.",
+    "navWorks": "Çalışmalar",
+    "navAbout": "Hakkımda",
+    "navDisciplines": "Disiplinler",
+    "navContact": "İletişim",
+    "discGraphic": "Grafik Tasarım",
+    "discMotion": "Hareketli Tasarım",
+    "discVideo": "Video Sanatı",
+    "discIllustration": "İllüstrasyon",
+    "discAI": "AI KREATİF"
+  },
+  "aboutSection": {
+    "transformIdeas": "Disiplinler arası birçok alanı eş zamanlı kullanan bu yaratım yaklaşımı; çocukluğun saf hayal gücünden, hayattan, deneyimden, rüyalardan ve gündelik dünyanın içinde biriken imgelerden beslenir. Yalnızca görsel üretmekten çok, bir fikrin etrafında anlam yaratmayı, atmosfer kurmayı ve hikâye anlatmayı merkeze alır.",
+    "journeyDescription": "Ortaya çıkan iş ister ticari, ister sanatsal, ister kişisel olsun; özündeki yaklaşım hep aynı kalır: sezgisel yaratımı profesyonel bir süreçle birleştirerek, izleyiciyle temas eden, kendi dünyasını kuran ve iz bırakan işler üretmek."
+  },
+  "projectDetail": {
+    "projectTitle": "Emel (Nod4wa) — ALCHEMIZE",
+    "projectDesc": "Ankara'nın özgün müzisyenlerinden Emel'in, Nod4wa altyapısıyla ürettiği Alchemize parçası için hazırladığım yaratıcı müzik videosu."
+  }
+}

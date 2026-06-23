@@ -1,0 +1,27 @@
+{
+  "slug": "heatlands",
+  "year": 2026,
+  "categories": ["ai"],
+  "title": {
+    "en": "HEATLANDS",
+    "tr": "SICAKŞEHIR"
+  },
+  "shortDescription": {
+    "en": "A comprehensive visual exploration project featuring cinematic landscapes, heat-inspired color palettes, and experimental typography.",
+    "tr": "Sinematik mekanlar, ısı-ilham almış renk palet ve deneysel tipografi içeren kapsamlı bir görsel keşif projesi."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": ["Photoshop", "Illustrator", "Cinema 4D", "After Effects"],
+  "coverImage": "https://img.youtube.com/vi/PgHNci6Q7SM/hqdefault.jpg",
+  "gallery": [],
+  "videos": [
+    { "type": "youtube", "id": "PgHNci6Q7SM" },
+    { "type": "youtube", "id": "PLX1DT0XbIw" },
+    { "type": "youtube", "id": "mW__z99qpmw" }
+  ],
+  "client": "",
+  "featured": true
+}

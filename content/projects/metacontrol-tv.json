@@ -1,0 +1,27 @@
+{
+  "slug": "metacontrol-tv",
+  "year": 2026,
+  "categories": ["ai"],
+  "title": {
+    "en": "METACONTROL.TV",
+    "tr": "METACONTROL.TV"
+  },
+  "shortDescription": {
+    "en": "An experimental AI-driven visual project exploring meta-narratives and digital consciousness.",
+    "tr": "Meta-anlatıları ve dijital bilinci keşfeden deneysel bir AI-odaklı görsel proje."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": ["AI", "Python", "TouchDesigner"],
+  "coverImage": "https://img.youtube.com/vi/QAjdoQos_xU/hqdefault.jpg",
+  "gallery": [],
+  "videos": [
+    { "type": "youtube", "id": "QAjdoQos_xU" },
+    { "type": "youtube", "id": "dXi0jYe4gtU" },
+    { "type": "youtube", "id": "lRAD979rEO8" }
+  ],
+  "client": "@metactrl.tv",
+  "featured": true
+}

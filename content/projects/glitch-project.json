@@ -1,0 +1,33 @@
+{
+  "slug": "glitch-project",
+  "year": 2025,
+  "categories": ["ai"],
+  "title": {
+    "en": "GLITCH PROJECT",
+    "tr": "GLITCH PROJECT"
+  },
+  "shortDescription": {
+    "en": "A series of experimental glitch art and video manipulation pieces exploring digital artifacts and temporal distortions through cinematic language.",
+    "tr": "Dijital artefaktlar ve zamansal bozulmalar keşfeden, sinematik dil üzerinden gerçekleştirilen deneysel glitch sanatı ve video manipülasyonu serisi."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": ["After Effects", "Cinema 4D", "TouchDesigner"],
+  "coverImage": "/images/works/glitch-project/cover.webp",
+  "gallery": [],
+  "videos": [
+    { "type": "youtube", "id": "YcI4hrdttyA" },
+    { "type": "youtube", "id": "7NIRhMAK0n0" },
+    { "type": "youtube", "id": "7-jVhwzu8p4" },
+    { "type": "youtube", "id": "qsg0CBVFvv4" },
+    { "type": "youtube", "id": "rclNlfTNjxA" },
+    { "type": "youtube", "id": "BxGWZl78X5A" },
+    { "type": "youtube", "id": "LdEviGoTn8Y" },
+    { "type": "youtube", "id": "SpWkfJfpIEQ" },
+    { "type": "youtube", "id": "mLAHUt9O3yw" }
+  ],
+  "client": null,
+  "featured": true
+}

@@ -1,0 +1,36 @@
+{
+  "slug": "nata-holding",
+  "year": 2026,
+  "categories": ["video"],
+  "title": {
+    "en": "NATA HOLDING",
+    "tr": "Nata Holding"
+  },
+  "shortDescription": {
+    "en": "A video project.",
+    "tr": "Bir video projesi."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": [],
+  "coverImage": "https://img.youtube.com/vi/_QrayKuavks/hqdefault.jpg",
+  "gallery": [],
+  "videos": [
+    {
+      "type": "youtube",
+      "id": "_QrayKuavks"
+    },
+    {
+      "type": "youtube",
+      "id": "YWfunnczkFI"
+    },
+    {
+      "type": "youtube",
+      "id": "gAlyiUB0Clg"
+    }
+  ],
+  "client": null,
+  "featured": false
+}
