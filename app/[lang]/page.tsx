@@ -114,7 +114,6 @@ function DisciplinesSection({ t }: { t: any }) {
                     color: "var(--color-text-primary)",
                     marginBottom: "12px",
                     margin: 0,
-                    marginBottom: "12px",
                     lineHeight: "1.3",
                   }}
                 >

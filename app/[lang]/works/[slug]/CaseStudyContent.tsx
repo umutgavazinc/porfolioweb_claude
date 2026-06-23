@@ -42,13 +42,13 @@ export default function CaseStudyContent({
   const allMedia = [
     ...(project.coverImage ? [{ type: isCoverYouTube ? ("youtube" as const) : isCoverVideo ? ("video" as const) : ("image" as const), src: coverSrc }] : []),
     ...project.gallery.map((img) => ({ type: "image" as const, src: img })),
-    ...project.videos.map((vid) => ({ type: (vid.type === "youtube" ? "youtube" : "video") as const, src: vid.id })),
+    ...project.videos.map((vid) => ({ type: vid.type === "youtube" ? ("youtube" as const) : ("video" as const), src: vid.id })),
   ];
 
   // For display: combine gallery and videos into one display
   const displayMedia = [
     ...project.gallery.map((img) => ({ type: "image" as const, src: img })),
-    ...project.videos.map((vid) => ({ type: (vid.type === "youtube" ? "youtube" : "video") as const, src: vid.id })),
+    ...project.videos.map((vid) => ({ type: vid.type === "youtube" ? ("youtube" as const) : ("video" as const), src: vid.id })),
   ];
 
   // Alt galeri media

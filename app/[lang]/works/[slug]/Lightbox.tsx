@@ -90,21 +90,26 @@ export function Lightbox({
             }}
           />
         ) : currentMedia.type === "youtube" ? (
-          <iframe
-            width="100%"
-            height="100%"
-            src={`https://www.youtube.com/embed/${currentMedia.src}`}
-            title="YouTube video player"
-            frameBorder={0}
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-            allowFullScreen
+          <div
             style={{
-              maxWidth: "90vw",
-              maxHeight: "90vh",
-              aspectRatio: "16 / 9",
+              width: "95vw",
+              height: "95vh",
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
             }}
-          />
+          >
+            <iframe
+              width="100%"
+              height="100%"
+              src={`https://www.youtube.com/embed/${currentMedia.src}`}
+              title="YouTube video player"
+              frameBorder={0}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerPolicy="strict-origin-when-cross-origin"
+              allowFullScreen
+            />
+          </div>
         ) : (
           <video
             src={currentMedia.src}
