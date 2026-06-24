@@ -114,7 +114,7 @@ function HeroSection({ heroSub, viewPortfolio, aboutMe }: HeroSectionProps) {
           <h1
             style={{
               fontFamily: "ClashDisplay, sans-serif",
-              fontSize: "clamp(44px, 7vw, 80px)",
+              fontSize: "clamp(28px, 6vw, 80px)",
               fontWeight: 600,
               lineHeight: "1.1",
               color: "var(--color-text-primary)",
@@ -142,7 +142,7 @@ function HeroSection({ heroSub, viewPortfolio, aboutMe }: HeroSectionProps) {
 
           <p
             style={{
-              fontSize: "clamp(16px, 2vw, 19px)",
+              fontSize: "clamp(13px, 1.8vw, 19px)",
               lineHeight: "1.65",
               color: "rgba(244, 240, 237, 0.8)",
               marginBottom: "24px",
@@ -157,7 +157,7 @@ function HeroSection({ heroSub, viewPortfolio, aboutMe }: HeroSectionProps) {
           {/* Disciplines */}
           <div
             style={{
-              fontSize: "14px",
+              fontSize: "clamp(12px, 2vw, 14px)",
               color: "rgba(244, 240, 237, 0.7)",
               marginBottom: "36px",
               marginTop: 0,
