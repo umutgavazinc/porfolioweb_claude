@@ -29,13 +29,13 @@ function HeroSection({ heroSub, viewPortfolio, aboutMe }: HeroSectionProps) {
       className="relative overflow-hidden"
       style={{
         minHeight: "100vh",
-        background: "#000000",
+        background: "linear-gradient(135deg, rgba(10,10,10,1) 0%, rgba(45,22,24,0.9) 50%, rgba(10,10,10,1) 100%)",
       }}
     >
       {/* Background Video */}
       <video
         ref={videoRef}
-        src="/videos/hero/Metacore_reality_post.mp4"
+        src="/videos/hero/port-kesf.webm"
         autoPlay
         muted={isMuted}
         loop
