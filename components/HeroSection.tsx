@@ -110,7 +110,7 @@ function HeroSection({ heroSub, viewPortfolio, aboutMe }: HeroSectionProps) {
           paddingTop: "var(--nav-height)",
         }}
       >
-        <div style={{ maxWidth: "680px" }}>
+        <div style={{ maxWidth: "clamp(280px, 90vw, 680px)" }}>
           <h1
             style={{
               fontFamily: "ClashDisplay, sans-serif",
@@ -118,7 +118,7 @@ function HeroSection({ heroSub, viewPortfolio, aboutMe }: HeroSectionProps) {
               fontWeight: 600,
               lineHeight: "1.1",
               color: "var(--color-text-primary)",
-              marginBottom: "16px",
+              marginBottom: "clamp(12px, 2vw, 16px)",
               marginTop: 0,
               whiteSpace: "pre-wrap",
             }}
@@ -145,9 +145,9 @@ function HeroSection({ heroSub, viewPortfolio, aboutMe }: HeroSectionProps) {
               fontSize: "clamp(13px, 1.8vw, 19px)",
               lineHeight: "1.65",
               color: "rgba(244, 240, 237, 0.8)",
-              marginBottom: "24px",
+              marginBottom: "clamp(16px, 3vw, 24px)",
               marginTop: 0,
-              maxWidth: "520px",
+              maxWidth: "clamp(280px, 90vw, 520px)",
               fontWeight: 400,
             }}
           >
@@ -159,9 +159,9 @@ function HeroSection({ heroSub, viewPortfolio, aboutMe }: HeroSectionProps) {
             style={{
               fontSize: "clamp(12px, 2vw, 14px)",
               color: "rgba(244, 240, 237, 0.7)",
-              marginBottom: "36px",
+              marginBottom: "clamp(24px, 4vw, 36px)",
               marginTop: 0,
-              maxWidth: "520px",
+              maxWidth: "clamp(280px, 90vw, 520px)",
               lineHeight: "1.6",
             }}
           >
@@ -228,7 +228,7 @@ function HeroSection({ heroSub, viewPortfolio, aboutMe }: HeroSectionProps) {
             )}
           </div>
 
-          <div className="flex gap-4" style={{ marginBottom: "40px" }}>
+          <div className="flex flex-wrap gap-2 sm:gap-4" style={{ marginBottom: "clamp(24px, 5vw, 40px)" }}>
             <Link
               href="/works"
               className="btn btn-primary"

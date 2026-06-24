@@ -52,12 +52,12 @@ export default function WorksClient({ projects, lang }: Props) {
           {/* Hero Video - Alchemize YouTube */}
           <div
             style={{
-              marginBottom: "40px",
+              marginBottom: "clamp(24px, 5vw, 40px)",
               borderRadius: "20px",
               overflow: "hidden",
               aspectRatio: "21 / 9",
-              maxWidth: "90%",
-              margin: "-28px auto 40px",
+              maxWidth: "95%",
+              margin: "clamp(-20px, -2vw, -28px) auto clamp(24px, 5vw, 40px)",
               position: "relative",
             }}
           >
