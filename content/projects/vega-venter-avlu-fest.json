@@ -22,7 +22,8 @@
   ],
   "videos": [
     { "type": "local", "id": "/images/works/vega-venter-avlu-fest/video1.mp4" },
-    { "type": "local", "id": "/images/works/vega-venter-avlu-fest/avlufest_mesajjj.mp4" }
+    { "type": "local", "id": "/images/works/vega-venter-avlu-fest/avlufest_mesajjj.mp4" },
+    { "type": "youtube", "id": "91eVIAzKERM" }
   ],
   "client": null,
   "featured": false

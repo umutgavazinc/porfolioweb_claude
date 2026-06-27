@@ -33,7 +33,8 @@
     { "type": "youtube", "id": "uGaSgny89fA" },
     { "type": "youtube", "id": "LWBo9PV7LGs" },
     { "type": "local", "id": "/images/works/vega-venter-avlu-fest/video1.mp4" },
-    { "type": "local", "id": "/images/works/vega-venter-avlu-fest/avlufest_mesajjj.mp4" }
+    { "type": "local", "id": "/images/works/vega-venter-avlu-fest/avlufest_mesajjj.mp4" },
+    { "type": "youtube", "id": "91eVIAzKERM" }
   ],
   "client": null,
   "featured": true
