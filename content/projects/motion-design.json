@@ -1,0 +1,40 @@
+{
+  "slug": "motion-design",
+  "year": 2025,
+  "categories": ["motion"],
+  "title": {
+    "en": "MOTION DESIGN",
+    "tr": "HAREKETLI GRAFIK"
+  },
+  "shortDescription": {
+    "en": "A comprehensive collection of motion graphics and video projects showcasing experimental techniques and cinematic narratives.",
+    "tr": "Deneysel teknikler ve sinematik anlatıları sergileyen kapsamlı hareketli grafik ve video projelerinin koleksiyonu."
+  },
+  "longDescription": {
+    "en": "",
+    "tr": ""
+  },
+  "tools": ["After Effects", "Cinema 4D", "TouchDesigner", "Premiere Pro"],
+  "coverImage": "https://img.youtube.com/vi/TGpvrlaFhlc/hqdefault.jpg",
+  "gallery": [],
+  "videos": [
+    { "type": "youtube", "id": "TGpvrlaFhlc" },
+    { "type": "youtube", "id": "LrrtzYjDYLI" },
+    { "type": "youtube", "id": "YcI4hrdttyA" },
+    { "type": "youtube", "id": "7NIRhMAK0n0" },
+    { "type": "youtube", "id": "7-jVhwzu8p4" },
+    { "type": "youtube", "id": "qsg0CBVFvv4" },
+    { "type": "youtube", "id": "rclNlfTNjxA" },
+    { "type": "youtube", "id": "BxGWZl78X5A" },
+    { "type": "youtube", "id": "LdEviGoTn8Y" },
+    { "type": "youtube", "id": "SpWkfJfpIEQ" },
+    { "type": "youtube", "id": "mLAHUt9O3yw" },
+    { "type": "youtube", "id": "gh3sez0cm1k" },
+    { "type": "youtube", "id": "uGaSgny89fA" },
+    { "type": "youtube", "id": "LWBo9PV7LGs" },
+    { "type": "local", "id": "/images/works/vega-venter-avlu-fest/video1.mp4" },
+    { "type": "local", "id": "/images/works/vega-venter-avlu-fest/avlufest_mesajjj.mp4" }
+  ],
+  "client": null,
+  "featured": true
+}
